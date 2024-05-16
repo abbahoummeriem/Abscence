@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans MT';
+
+}
+body {
+font-family:inherit;
+background-color: #e4e4e4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+background-color: #ffffff;
+padding: 40px;
+border-radius: 5px;
+box-shadow: 0 0 40px rgba(21, 21, 21, 0.1);
+}
+
+h2,label,select {
+text-align: center;
+color:rgb(27, 27, 69);
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+label {
+margin-bottom: 10px;
+}
+
+input,select {
+width: 250px;
+padding: 8px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+#submit,button{
+width: 140px;
+padding: 8px;
+background-color: #49b7b3;
+color: #f3f3f3;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.5s ease;
+}
+
+#submit:hover,button:hover {
+background-color: #3d9390;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px; 
+    margin-top: 40px;
+}
+
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+a{
+    text-decoration: none;
+}
+
+.Table th, .Table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid rgba(105, 97, 97, 0.573);
+    border-radius: 2px; 
+    
+}
+
+.Table th {
+    background-color: #bce6f1;
+    color: #212c51;
+
+}
+option {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+}
+select option:checked {
+    background-color: #49b7b3;
+    color: #fff;
+} 
+ h3 {
+    color: #1b1b45;
+    margin-bottom: 20px;
+}
